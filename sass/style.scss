@@ -149,6 +149,7 @@ body {
                 width: 300px;
                 height: 200px;
                 z-index: -2;
+                left: 0px; 
             }
 
             .pic-on {
@@ -195,7 +196,7 @@ body {
             }
     
             background-position: 100% 0;
-	        background-size: 300%;
+	        background-size: 800%;
             background-image: linear-gradient(135deg, rgba(19, 19, 19, 0.918) 50%, transparent 50%);
             transition: background 0.4s;
             width: 300px;
@@ -352,9 +353,9 @@ footer {
 }
 
 @media only screen and (max-device-width: 768px) {
-#square1 {
-    // display: none;
-}
+    #square1, #square2 {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
